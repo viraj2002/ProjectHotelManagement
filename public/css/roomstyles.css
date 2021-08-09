@@ -1,0 +1,45 @@
+.row{
+  margin-left:15px;
+  margin-right:15px;
+  margin-bottom: 50px;
+
+}
+.top{
+  margin-top: 2rem;
+}
+.card{
+  margin-right: 20px;
+
+}
+.signoutbutton{
+  position:relative;
+margin-left:200px;
+margin-bottom: 20px;
+margin-top:5px;
+cursor:pointer;
+
+}
+.roomstitle{
+  font-size: 3rem;
+font-family: 'Satisfy', cursive;
+font-weight: bold;
+}
+.nearbyattractions{
+  padding:20px;
+  font-size: 3rem;
+  font-family: 'Satisfy', cursive;
+font-weight: bold;
+}
+.inner{
+  overflow:hidden;
+}
+.inner img{
+  transition:all 1.5s ease;
+}
+.inner:hover img{
+transform: scale(1.5);
+}
+.mainbuttons1,.mainbuttons2{
+  margin-bottom: 2rem;
+  cursor: pointer;
+}

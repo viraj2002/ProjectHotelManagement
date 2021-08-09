@@ -1,0 +1,132 @@
+.navbar{
+  font-size:1rem;
+}
+.navbar-brand{
+  padding-left: 5%;
+  font-family: 'McLaren', cursive;
+}
+.mainbuttons1{
+  margin-left:2rem;
+}
+.navbar-nav{
+  margin-left:60%;
+}
+.jumbotron{
+background-image: url(../images/homepage.jpeg);
+background-size: cover;
+height: 37.5rem;
+
+}
+.home-title{
+padding-top:0;
+font-size: 2rem;
+font-family: 'Merriweather', serif;
+font-weight: bold;
+}
+
+#rooms{
+  margin-top:40px;
+}
+.card{
+  border:none;
+  padding:0;
+  margin:0;
+}
+.rooms1{
+  margin-bottom:40px;
+}
+.card-body{
+  border:none;
+  padding:0;
+  margin:0;
+  width:400px;
+  height:300px;
+  position: relative;
+}
+.grid{
+  width:300px;
+  height:200px;
+  border:5px ridge black;
+  margin-left:30%;
+  border-radius:4px;
+  transition:.3s;
+}
+
+
+.text12{
+  position:absolute;
+  top:30%;
+  z-index:1;
+  color:black;
+  text-align:center;
+  width:100%;
+  margin-left: 15%;
+  opacity:0;
+  transition: .3s;
+
+}
+.grid1,.grid2,.grid3{
+font-weight: bold;
+color:black;
+cursor: pointer;
+}
+
+.grid11,.grid12,.grid13{
+font-weight: bold;
+color:white;
+}
+.grid21,.grid22,.grid23{
+font-weight: bold;
+color:black;
+}
+.grid31,.grid32,.grid33{
+  font-weight: bold;
+  color:white;
+}
+.text12:hover img{
+  filter: blur(20px) brightness(40%);
+  box-shadow:0 0 8px cyan;
+}
+.text12:hover{
+  opacity:1;
+}
+.roompre,.diningpre,.fitnesspre,.weddingpre{
+  font-family: 'Merriweather',serif;
+  font-size:1rem;
+  font-weight:bold;
+}
+.WhyUs{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+}
+.footer{
+
+    font-family: 'Merriweather',serif;
+    font-weight:bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:white;
+    background-color:black;
+    margin-bottom: 0;
+}
+.social{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right:30px;
+}
+.inner{
+  overflow:visible;
+}
+.inner img{
+  transition:all 1.5s ease;
+}
+.inner:hover img{
+transform: scale(0.5);
+}
+body{
+  overflow-x:hidden;
+  margin:0;
+  padding: 0;
+}

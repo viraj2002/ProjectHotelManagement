@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Book your room now!</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <link rel="stylesheet" href="css/bookingcss.css">
+  </head>
+  <body>
+<div id="booking" class="section">
+    <div class="section-center">
+        <div class="container">
+            <div class="row">
+                <div class="booking-form">
+                    <div class="form-header">
+                        <h1>Make your reservation</h1>
+                    </div>
+                    <form class="" action="" method="post">
+                    <div class="form-group"> <input class="form-control" type="text" autocomplete="off" placeholder="Country/State" name="country" pattern="[A-Za-z]{2,}" title="Country/State name must contain only alphabets and that too more than two" required autocomplete="off"> <span class="form-label">Destination</span> </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group"> <input class="form-control" type="email" autocomplete="off" placeholder="Enter your Email" name="email" required> <span class="form-label" autocomplete="off">Email</span> </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group"> <input class="form-control" type="tel" autocomplete="off" placeholder="Enter your Phone" name="phone"  pattern="[0-9]{10}" title="Phone number must contain 10 digits" required autocomplete="off"> <span class="form-label">Phone</span> </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group"> <input class="form-control" type="text" autocomplete="off" placeholder="Enter your first name" name="fname" pattern="[A-Za-z]{2,}" title="Name must contain only alphabets and that too more than two" required autocomplete="off"> <span class="form-label">First Name/span> </div>
+
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="form-group"> <input class="form-control" type="text"  autocomplete="off" placeholder="Enter your last name" name="lname" pattern="[A-Za-z]{2,}" title="Name must contain only alphabets and that too more than two" required autocomplete="off"> <span class="form-label">Last Name/span> </div>
+                        </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group"> <input class="form-control" type="date" name="date" required autocomplete="off"> <span class="form-label">Date</span> </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="form-btn"> <button class="submit-btn" style="cursor:pointer;">Book Now</button> </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
