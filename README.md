@@ -24,33 +24,39 @@
 
 - **Home Page**:The home page of the website contains the **basic navigation bar** to navigate to the **different sections on the homepage(designed using bootstrap navigation bar)**.Then it contains an image on which **signup and signin buttons** are placed.Then,there is **rooms section,dining section,fitness section and weddings section** which gives the user a good colourful view to the eyes and also hints about the facilities available at the hotel.Then there is a **Why us div** which gives the plus points of our hotel so as to attract the customers.And finally there is the **footer section** which consists of social media links.The screenshots of the homepage are available below:
                                                                  
-                                                                 **Home Section**
+                                                            **Home Section**
                                                                  
                                                                  
 ![Home Page](https://github.com/viraj2002/ProjectHotelManagement/blob/master/readmeimages/homepagereadmeimages1_2.png)
                                                                  
                                                                  
-                                                                 **Rooms Section**
+                                                           **Rooms Section**
                                                                  
                                                                  
 
 ![Home Page-Rooms Section](https://github.com/viraj2002/ProjectHotelManagement/blob/master/readmeimages/homepageroomsreadmeimages2_2.png)
 
                                                                  
-                                                                 **Dining Section**
+                                                           **Dining Section**
+                                                           
 
 ![Home Page-Dining Section](https://github.com/viraj2002/ProjectHotelManagement/blob/master/readmeimages/homepagediningreadmeimages3_2.png)
 
                                                                  
-                                                                 **Fitness Section**
+                                                          **Fitness Section**
+                                                          
 
 ![Home Page-Fitness Section](https://github.com/viraj2002/ProjectHotelManagement/blob/master/readmeimages/homepagefitnessreadmeimages3_2.png)
                                                         
-                                                                  **Dining Section**
+                                                        
+                                                           **Weddings Section**
+                                                            
 
 ![Home Page](https://github.com/viraj2002/ProjectHotelManagement/blob/master/readmeimages/homepageweddingsreadmeimages3_3.png)
 
-                                                              **Footer Section**
+
+                                                            **Footer Section**
+
 
 ![Home Page-Footer section](https://github.com/viraj2002/ProjectHotelManagement/blob/master/readmeimages/homepagefooterreadmeimages3_2.png)
 
@@ -58,7 +64,7 @@
 - **Sign Up**:This page is accessible if one clicks the sign up button on the home page.Then,when you click on the **signup button**,you will be redirected to the signup page.Here,you have to enter your valid details here and then click on "Create Account".At the backend,if you are already registered,then it will just tell the user that he has already registered and the user will be directed to the sign in page.
                                                              
                                                              
-                                                               **Sign Up Page**
+                                                              **Sign Up Page**
                                                                
 
 ![Home Page-Sign up section](https://github.com/viraj2002/ProjectHotelManagement/blob/master/readmeimages/signupreadmeimages3_2.png)
@@ -67,7 +73,7 @@
 - **Sign In**:This page is accessible if one clicks the direct **sign in button** on the home page or if the user registers successfully.Then,when you enter the details and click on the Login button,your details will be validated and if they are **incorrect**,then the user will be **informed** about the same and if they are **valid**,the user will be taken **to the rooms page.**
                                                     
                                                     
-                                                               **Sign In Page**
+                                                              **Sign In Page**
                                                                
 
 ![Home Page-Sign in section](https://github.com/viraj2002/ProjectHotelManagement/blob/master/readmeimages/signinreadmeimages3_2.png)
@@ -75,8 +81,9 @@
 
 - **Rooms page**:Here,you will see the **rooms images,its interior and the various facilities like swimming pool,gymnasium**,etc.Also,there are some nearby attractions,mentioned there.Also,there is a signout button,which will take the the user to the home page after clicking on Sign out button.Also,there are **book now** and **cancel now** buttons.
   
-                                                               
-                                                               **Rooms  Page**
+                                                              
+                                                              
+                                                             **Rooms  Page**
                                                              
                                                              
 ![Rooms page 1 ](https://github.com/viraj2002/ProjectHotelManagement/blob/master/readmeimages/roomspagereadmeimages1_2.png)
@@ -89,7 +96,7 @@
 - **Book now**:The clicking of BookNow button on rooms page leads to this page.This page allows a **user to book the room after successful validation of the users details and also checking the availability of rooms on that particular date**.On successful booking,the user is redirected to rooms page from where he can signout.
 
                                                                
-                                                               **Book Now Page**
+                                                             **Book Now Page**
                                                                 
                                                                 
 ![Booking  Page](https://github.com/viraj2002/ProjectHotelManagement/blob/master/readmeimages/bookingspagereadmeimages3_2.png)
@@ -98,7 +105,7 @@
 - **Cancel now**:The clicking of CancelNow button on rooms page leads to this page.This page allows the user to cancel a room. It **checks if the user has actually booked a room and if he has then it allows to cancel the room**. On successful cancellation,the user is redirected to rooms page from where he can signout.
                                                                         
                                                                         
-                                                                **Cancel Now Page**
+                                                              **Cancel Now Page**
   
 ![Cancel Booking Page](https://github.com/viraj2002/ProjectHotelManagement/blob/master/readmeimages/cancelbookingspagereadmeimages3_2.png)
 
